@@ -818,6 +818,9 @@ class ModelsCommand extends Command
         if ($write !== null) {
             $this->properties[$name]['write'] = $write;
         }
+        if ($comment !== '') {
+            $this->properties[$name]['comment'] = (string) $comment;
+        }
     }
 
     public function setMethod($name, $type = '', $arguments = [], $comment = '')
