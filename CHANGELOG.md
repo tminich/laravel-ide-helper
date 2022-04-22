@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 [Next release](https://github.com/barryvdh/laravel-ide-helper/compare/v2.12.3...master)
 --------------
 
+2022-04-22, TBD
+---------------
+
+### Fixed
+- Fix comment not being updated when using `ModelsCommand::setProperty` on a property that was already registered (Fixes [#1344](https://github.com/barryvdh/laravel-ide-helper/issues/1344))
+
 2022-03-06, 2.12.3
 ------------------
 
